@@ -13,11 +13,7 @@ public class Mover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float xValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
-        float yValue = 0f;
-        float zValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
-
-        transform.Translate(xValue, yValue, zValue);
+        MovePlayer();
     }
 
     void PrintInstruction()
@@ -25,5 +21,13 @@ public class Mover : MonoBehaviour
         Debug.Log("Welcome to the game!");
         Debug.Log("Use arrows keys or WASD to move the player.");
         Debug.Log("Dont bump into obstacles!");
+    }
+
+    void MovePlayer()
+    {
+        float xValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
+        float yValue = 0f;
+        float zValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
+        transform.Translate(xValue, yValue, zValue);
     }
 }
