@@ -7,7 +7,7 @@ public class Mover : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        PrintInstruction();
     }
 
     // Update is called once per frame
@@ -24,6 +24,6 @@ public class Mover : MonoBehaviour
     {
         Debug.Log("Welcome to the game!");
         Debug.Log("Use arrows keys or WASD to move the player.");
-        Debug.Log("Dont bump into objects.");
+        Debug.Log("Dont bump into obstacles!");
     }
 }
