@@ -19,4 +19,11 @@ public class Mover : MonoBehaviour
 
         transform.Translate(xValue, yValue, zValue);
     }
+
+    void PrintInstruction()
+    {
+        Debug.Log("Welcome to the game!");
+        Debug.Log("Use arrows keys or WASD to move the player.");
+        Debug.Log("Dont bump into objects.");
+    }
 }
