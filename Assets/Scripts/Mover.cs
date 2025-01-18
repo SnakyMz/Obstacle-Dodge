@@ -23,6 +23,7 @@ public class Mover : MonoBehaviour
         Debug.Log("Dont bump into obstacles!");
     }
 
+    // Moves player using arrow keys or WASD keys
     void MovePlayer()
     {
         float xValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
