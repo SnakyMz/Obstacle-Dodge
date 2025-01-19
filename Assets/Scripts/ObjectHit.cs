@@ -5,6 +5,10 @@ public class ObjectHit : MonoBehaviour
     // Changes object color upon contact
     void OnCollisionEnter(Collision other)
     {
-        GetComponent<MeshRenderer>().material.color = Color.black;
+        if (other.gameObject.tag == "Player")
+        {
+            GetComponent<MeshRenderer>().material.color = Color.black;
+            gameObject.tag = "Hit";
+        }
     }
 }
