@@ -288,7 +288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3bbbd23d8fcffc4384df1c0d3be0815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.5
+  speed: 8
   player: {fileID: 261592100}
 --- !u!135 &203193969
 SphereCollider:
@@ -1299,7 +1299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3bbbd23d8fcffc4384df1c0d3be0815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 12
   player: {fileID: 261592100}
 --- !u!135 &698600553
 SphereCollider:
@@ -1592,7 +1592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3bbbd23d8fcffc4384df1c0d3be0815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 10
   player: {fileID: 261592100}
 --- !u!135 &897737577
 SphereCollider:
@@ -2066,7 +2066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3bbbd23d8fcffc4384df1c0d3be0815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 16
   player: {fileID: 261592100}
 --- !u!135 &1212505486
 SphereCollider:
@@ -2552,7 +2552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3bbbd23d8fcffc4384df1c0d3be0815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 10
   player: {fileID: 261592100}
 --- !u!135 &1825211941
 SphereCollider:
