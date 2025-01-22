@@ -17,5 +17,14 @@ public class FlyToPlayer : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, playerPosition, speed * Time.deltaTime);
+        DestroyWhenReached();
+    }
+
+    void DestroyWhenReached()
+    {
+        if (transform.position == playerPosition)
+        {
+            Destroy(gameObject);
+        }
     }
 }
