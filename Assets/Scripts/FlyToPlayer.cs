@@ -8,9 +8,13 @@ public class FlyToPlayer : MonoBehaviour
     Vector3 playerPosition;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
         gameObject.SetActive(false);
+    }
+    
+    void Start()
+    {
         playerPosition = player.transform.position;
     }
 
